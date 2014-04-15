@@ -15,8 +15,8 @@
  * External dependencies.
  */
 
-var transitionize = require('transitionize')
-  , fastclick = require('fastclick');
+var transitionize = require('abpetkov-transitionize')
+  , fastclick = require('ftlabs-fastclick');
 
 /**
  * Expose `Switchery`.

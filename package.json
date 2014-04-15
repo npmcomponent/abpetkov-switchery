@@ -1,20 +1,20 @@
 {
-  "name": "switchery",
+  "name": "abpetkov-switchery",
+  "description": "Component to create iOS 7 styled switches from default input checkboxes",
   "version": "0.5.3",
-  "description": "Create iOS 7 styled switches from default input checkboxes",
+  "keywords": [
+    "checkbox",
+    "input",
+    "switch",
+    "iOS7"
+  ],
   "main": "switchery.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/abpetkov/switchery.git"
+  "styles": [
+    "switchery.css"
+  ],
+  "dependencies": {
+    "abpetkov-transitionize": "git://github.com/npmcomponent/abpetkov-transitionize.git",
+    "ftlabs-fastclick": "git://github.com/npmcomponent/ftlabs-fastclick.git"
   },
-  "author": "Alexander Petkov",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/abpetkov/switchery/issues"
-  },
-  "devDependencies": {
-    "uglify-js": "~2.4.8",
-    "component": "~0.18.0",
-    "uglifycss": "0.0.7"
-  }
+  "license": "MIT"
 }
